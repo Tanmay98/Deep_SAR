@@ -2,6 +2,10 @@
 
 ![Image](full-arch1.jpg)
 
+Our proposed training pipeline. The input SAR image bands are converted to false-color RGB, and then the FPN architecture is used to extract multi-resolution features combined using the Upsampling Stage to create high-resolution 
+        128-dimensional pixel-level feature vectors. The extracted features are then used to predict foreground regions using a Foreground-Background (FB) classifier head (class-agnostic detector). Finally, the predicted foreground regions 
+        and feature vectors are used to predict the semantic segmentation map using a Semantic Segmentation (SS) head.
+
 ## ABSTRACT
 
 Unlike traditional optoelectronic satellite imaging, Synthetic Aperture Radar (SAR) allows remote sensing applications to operate under all weather conditions. This makes it uniquely valuable for detecting ships/vessels involved in 
