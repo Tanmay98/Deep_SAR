@@ -15,7 +15,7 @@ Unlike traditional optoelectronic satellite imaging, Synthetic Aperture Radar (S
         dataset of SAR images.
 
 ## Performance
-![Image](score.jpg)
+![Image](score.JPG)
 
       Comparison of our approach with state-of-the-art methods for small object localization and generic object localization on the validation split of the xView3 dataset.
         F1<sub>D</sub>: Detection F1, F1<sub>S</sub>: Close-to-Shore Detection F1, F1<sub>V</sub>: Vessel Classification F1, F1<sub>C</sub>: Fishing Classification F1). <br> <sup>[G]</sup> : Generic method not adapted for small objects
