@@ -21,25 +21,3 @@ Comparison of our approach with state-of-the-art methods for small object locali
 
 ## Visualization
 ![Image](quant_input.png){: width="250"} ![Image](quant_true.png){: width="250"} ![Image](quant_ours.png){: width="250"} ![Image](quant_farseg_1.png){: width="250"} ![Image](quant_psp_1.png){: width="250"} ![Image](quant_factseg_1.png){: width="250"}
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
